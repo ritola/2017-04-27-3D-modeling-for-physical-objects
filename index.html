@@ -7,12 +7,29 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section><h2>3D modeling for physical objects</h2></section>
+        <section data-background="img/mir-10.png" data-background-transition="convex"><h2>3D modeling for physical objects</h2></section>
+
+        <section data-background-transition="fade">
+          <section><h2>My background</h2></section>
+          <section><img src="img/technical-drawing.png"/></section>
+          <section data-background="img/floor-plan-3d-10.png" data-transition="convex-in fade-out">
+            <img src="img/floor-plan-1.png"/></section>
+          <section data-background="img/mirror.jpg" data-transition="fade"></section>
+          <section data-background="img/mirror-20.png" data-transition="fade">
+            <img src="img/mirror-plan.png"/ height="100%"></section>
+          <section data-background="img/helium.jpg" data-transition="fade"></section>
+          <section data-background="img/helium-spacer.jpg"></section>
+          <section data-background="img/helium-model.jpg"></section>
+        </section>
       </div>
+
     </div>
     <script src="js/reveal.js"></script>
     <script>
-      Reveal.initialize();
+      Reveal.initialize({
+        transition: 'convex',
+        backgroundTransition: 'fade'
+      });
     </script>
   </body>
 </html>
