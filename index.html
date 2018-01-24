@@ -1,18 +1,22 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/reaktor.css">
+    <link rel="stylesheet" href="css/presentation.css">
+    <link rel="stylesheet" href="css/zenburn.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-background="img/mir-10.png" data-background-transition="convex">
-          <h2>3D modeling for physical objects</h2>
+        <section data-background="img/mir-20-white.png" data-background-transition="convex">
+          <h3>Creating 3D models for manufacturing</h3>
+          <h4 class="white">Introductory and hands on</h4>
         </section>
 
-        <section data-background-transition="fade">
-          <section><h2>My background</h2></section>
+        <section data-background-transition="fade" data-background-color="white">
+          <section><h3 class="red">My background</h3></section>
           <section><img src="img/technical-drawing.png"/>
           </section>
           <section data-background="img/floor-plan-3d-10.png" data-transition="convex-in fade-out">
@@ -25,50 +29,39 @@
           <section data-background="img/helium.jpg" data-transition="fade"></section>
           <section data-background="img/helium-spacer.jpg"></section>
           <section data-background="img/helium-model.jpg"></section>
+          <section data-background="img/eurorack.jpg"></section>
+          <section data-background="img/eurorack-case.jpg"></section>
+          <section data-background="img/eurorack-fusion360.png"></section>
         </section>
 
         <section>
           <section>
-            <h2>Question time</h2>
-            <p>Who is familiar with 3D-modeling?</p>
+            <h3 class="white">How to get details for the model?</h3>
           </section>
           <section>
-            <h2>Question time</h2>
-            <p>Why to model?</p>
-          </section>
-          <section>
-            <h2>Question time</h2>
-            <p>Why not?</p>
-          </section>
-        </section>
-
-        <section>
-          <section>
-            <h2>How to get details for the model?</h2>
-          </section>
-          <section>
-            <h2>Measure</h2>
+            <h3 class="white">Measure</h3>
             <p>I &#9829; vernier caliper</p>
           </section>
           <section>
-            <h2>Scan</h2>
+            <h3 class="white">Scan</h3>
             <ul>
               <li class="fragment">Flatbed scanner</li>
               <li class="fragment">3D scanner</li>
             </ul>
           </section>
           <section>
-            <h2>Get specifications</h2>
+            <h3 class="white">Get specifications</h3>
             <ul>
               <li class="fragment">Datasheets</li>
               <li class="fragment">Downloadable models</li>
+              <li class="fragment">Eagle / KiCad export</li>
             </ul>
           </section>
         </section>
 
-        <section>
+        <section data-background-color="white">
           <section>
-            <h2>Structure basics</h2>
+            <h3 class="red">Structure basics</h3>
             <ul>
               <li class="fragment">Analyze 2D forms</li>
               <li class="fragment">Extrude, rotate or use patterns</li>
@@ -76,77 +69,136 @@
             </ul>
           </section>
           <section>
-            <h2>Sculpting</h2>
+            <h3 class="red">Sculpting</h3>
             <p>Excluded today</p>
+          </section>
+          <section>
+            <h3 class="red">Demo</h3>
+            <ul>
+              <li>Analyze 2D forms</li>
+              <li>Extrude, rotate or use patterns</li>
+              <li>Repeat</li>
+            </ul>
           </section>
         </section>
 
         <section>
-          <section><h2>Modeling software</h2></section>
+          <section><h3 class="white">Modeling software</h3></section>
           <section>
-            <h2>Autodesk Fusion 360</h2>
+            <h3>Autodesk Fusion 360</h3>
             <img src="img/fusion-360.png"/>
           </section>
           <section>
-            <h2>Autodesk TinkerCAD</h2>
+            <h3>Autodesk TinkerCAD</h3>
             <img src="img/tinkercad.png"/>
           </section>
           <section>
-            <h2>Autodesk Meshmixer</h2>
+            <h3>Autodesk Meshmixer</h3>
             <img src="img/meshmixer.png"/>
           </section>
           <section>
-            <h2>Google Sketchup</h2>
+            <h3>Google Sketchup</h3>
             <img src="img/sketchup.png"/>
           </section>
           <section>
-            <h2>FreeCAD</h2>
+            <h3>FreeCAD</h3>
             <img src="img/freecad.png"/>
           </section>
           <section>
-            <h2>OpenJSCAD / OpenSCAD</h2>
+            <h3>OpenJSCAD / OpenSCAD</h3>
             <img src="img/openjscad.png"/>
           </section>
           <section>
-            <h2>Others?</h2>
+            <h3>Blender</h3>
+            <img src="img/blender.png"/>
+          </section>
+          <section>
+            <h3>Onshape</h3>
+            <img src="img/onshape.png"/>
+          </section>
+          <section>
+            <h3 class="white">Others?</h3>
           </section>
         </section>
 
-        <section>
+        <section data-background-color="white">
           <section>
-            <h2>Turning in to a physical object</h2>
+            <h3 class="red">Turning in to a physical object</h3>
           </section>
           <section>
-            <h2>Print here</h2>
+            <h3 class="red">DIY 3D print</h3>
+            <h4>Reaktor HQ K5</h4>
             <ul>
+              <li>Fused deposition modeling (FDM)</li>
               <li>Ultimaker 2</li>
               <li>PLA filament</li>
             </ul>
           </section>
+
           <section>
-            <h2>Order prints</h2>
+            <h3 class="red">Order 3D prints</h3>
+            <h4><a href="https://www.shapeways.com/">Shapeways</a></h4>
             <ul>
-              <li><a href="https://www.shapeways.com/">Shapeways</a></li>
+              <li>Selective Laser Sintering (SLS)</li>
               <li>No need to worry about support structures</li>
-              <li>Prints even metals</li>
+              <li>Metals: Steel, Aluminium, Silver, Gold, Platinum, Brass, Bronze</li>
             </ul>
           </section>
           <section>
-            <h2>Laser cutting</h2>
+            <h3 class="red">Order CNC parts</h3>
+            <h4><a href="https://www.3dhubs.com/">3D Hubs</a></h4>
             <ul>
-              <li><a href="https://www.ponoko.com/">Ponoko</a> (USA / UK / DE / ITA / NZ)</li>
+              <li>Plastics: ABS, Nylon Polycarbonate</li>
+              <li>Metals: Aluminium, Stainless Steel, Titanium</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="red">Laser cutting</h3>
+            <h4><a href="https://www.ponoko.com/">Ponoko</a> (USA / UK / DE / ITA / NZ)</h4>
+            <ul>
               <li>Sheet parts only (2D)</li>
               <li>Plastic, wood, leather, stamp rubber</li>
               <li>High quality comparing to printing</li>
             </ul>
           </section>
-          <section>
-            <h2>CNC</h2>
-          </section>
         </section>
 
-        <section data-background="img/mir-10.png" data-background-transition="convex">
-          <h2>Thank you!</h2>
+        <section data-background="img/mir-20-white.png" data-background-transition="convex">
+          <h3 class="white">Hands on</h3>
+        </section>
+
+        <section data-background-color="white">
+          <h3 class="red">Tips for 3D modeling</h3>
+          <ul>
+            <li class="fragment">Avoid overhangs</li>
+            <li class="fragment">45° negative angle is fine</li>
+            <li class="fragment">Small overhang is fine</li>
+            <li class="fragment">Add gap in holes and tight spaces</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="white">Printing with Ultimaker 2</h3>
+          <ul>
+            <li>Export STL</li>
+            <li>Slice with <a href="https://ultimaker.com/en/products/ultimaker-cura-software">Cura</a>
+              <ul>
+                <li>Use default Makerbot 2 settings</li>
+                <li>Check support</li>
+                <li>Check adhesion</li>
+                <li>Save GCode to SD card</li>
+              </ul>
+            </li>
+            <li>Print from SD card</li>
+          </ul>
+        </section>
+
+        <section data-background="img/mir-20-white.png" data-background-transition="convex">
+          <h3 class="white">Cura demo</h3>
+        </section>
+
+        <section data-background="img/mir-20-white.png" data-background-transition="convex">
+          <h3 class="white">Thank you!</h3>
         </section>
 
       </div>
